@@ -43,7 +43,9 @@ class DogAdmin(ModelAdmin):
         'favorite_toy'
     )
     list_editable = (
+        'name',
         'age',
+        'breed',
         'gender',
         'color',
         'favorite_food',

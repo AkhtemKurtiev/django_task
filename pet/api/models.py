@@ -40,7 +40,7 @@ class Breed(models.Model):
         verbose_name_plural = 'Породы'
 
     def __str__(self):
-        return f'Name of breed: {self.name}'
+        return f'Название породы: {self.name}'
 
 
 class Dog(models.Model):
@@ -65,4 +65,4 @@ class Dog(models.Model):
         verbose_name_plural = 'Собаки'
 
     def __str__(self):
-        return f'Name of dog: {self.name}'
+        return f'Кличка собаки: {self.name}'
